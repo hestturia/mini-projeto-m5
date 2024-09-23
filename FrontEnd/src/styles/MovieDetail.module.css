@@ -1,0 +1,29 @@
+.movieDetailContainer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.details {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.notFound {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e74c3c;
+}

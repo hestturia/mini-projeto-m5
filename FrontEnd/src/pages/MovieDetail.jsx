@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import styles from '../styles/MovieDetail.module.css';
 
 const MovieDetail = () => {
   const { id } = useParams();
@@ -23,12 +24,12 @@ const MovieDetail = () => {
   }, [id]);
 
   return (
-    <div>
+    <div className={styles.movieDetailContainer}>
       {loading ? (
         <p>Carregando...</p>
       ) : movie ? (
-        <div>
-          <h1>{movie.titulo}</h1>
+        <div className={styles.details}>
+          <h1 className={styles.title}>{movie.titulo}</h1>
           <p><strong>Lançamento:</strong> {movie.lancamento}</p>
           <p><strong>Descrição:</strong> {movie.descricao}</p>
           <p><strong>Diretor:</strong> {movie.director}</p>
