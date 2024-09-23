@@ -1,0 +1,17 @@
+.listContainer {
+    padding: 2rem;
+    background-color: #e8f5e9; /* Fundo verde claro */
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 2rem;
+  }
+  
+  .moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }

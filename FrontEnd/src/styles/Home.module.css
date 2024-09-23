@@ -1,0 +1,34 @@
+.homeContainer {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: url('https://img.freepik.com/premium-photo/apple-green-irish-green-color-template-banner-well-use-layout-banner-product-presentation_7954-3904.jpg') no-repeat center center/cover; 
+    color: #2e7d32;
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .description {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .button {
+    padding: 0.8rem 2rem;
+    background-color: #66bb6a;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2e7d32;
+    transform: scale(1.05);
+  }
