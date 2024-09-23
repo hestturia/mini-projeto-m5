@@ -1,8 +1,9 @@
 # Mini Projeto M5 - Programadores do Amanhã
 
-## 🍃 Consciência Ecológica na TV
+## 🍃 EcoMovie
 
 Esse projeto tem como objetivo criar uma API que recomende filmes infantis que abordem o tema de Consciência Ambiental, visando educar as crianças através de uma forma de entretenimento!
+Integrado a API desenvolvida no MiniProjeto anterior, desenvolvi uma página que recomenda
 
 
 ## Pré Requisitos 🔧
@@ -10,9 +11,5 @@ Esse projeto tem como objetivo criar uma API que recomende filmes infantis que a
 * [Node.js]
 * [React]
 * [Axios]
-
-## Executando o app ✅
-
-* npm start
 
 * **Phelipe Cezario** 
